@@ -28,11 +28,13 @@ Proffy é uma aplicação que permite conectar alunos e professores de uma forma
 
 1. Instale as dependencias `npm install`
 
-2. Instale a ferramenta expo com o comando `npm install -g expo-cli`
+2. Instale a ferramenta expo com o comando `npm install -g expo-cli` e no celular instale o expo pelo play store
 
 3. Execute o projeto `expo start` e abrirá o browser. Pegue o IP e Porta.
 
 <img width="200" src="https://github.com/trainningjava/Proffy/blob/master/public/assets/img/expo.jpg">
+
+4. Com o seu celular, aponte a camera para o `QRCODE` e clique para abri o projeto.
 
 ## :rocket: Tecnologias Utilizadas 
 
