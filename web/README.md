@@ -17,7 +17,6 @@
 
 _________
 
-## :information_source: O que é?
 ### 🤔 Sobre o que se trata ? 
 A NLW é uma experiência online criada pela <a href="https://rocketseat.com.br/">Rocketseat</a> de uma semana com muito conteúdo prático, desafios, hacks e um projeto 
 que nos ajudam a avançar para o próximo nível e impulsionar a nossa carreira. 🤩🤩
@@ -33,7 +32,10 @@ Proffy é uma aplicação que permite conectar alunos e professores de uma forma
 - Executar o projeto `npm start`. Irá abrir automaticamente o Browser na porta `3000`
 
 ```obs
-Se quiser altear a porta 3333 do SERVER. Você precisa abrir o arquivo api.ts que está no diretório src\servies e 
+1-Se quiser alterar a porta 3000. Você precisão abrir o arquivo package.json e alterar a linha "start": "react-scripts start". 
+Por exemplo alterar para Porta 3006 => "start": "set PORT=3006 && react-scripts start"
+
+2-Se alterou a porta 3333 do SERVER. Você precisa abrir o arquivo api.ts que está no diretório src\servies e 
 alterar a linha baseURL: "http://localhost:3333"
 ```
 
