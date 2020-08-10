@@ -10,7 +10,6 @@
 <h3 align="center">
   <a href="#information_source-sobre-o-que-se-trata">Sobre o que se trata ?</a>&nbsp;|&nbsp;
   <a href="#heavy_check_mark-sobre-o-projeto">Sobre o projeto</a>&nbsp;|&nbsp;
-    
   <a href="#rocket-tecnologias-utilizadas">Tecnologias</a>&nbsp;|&nbsp;
   <a href="#iphone-telas">Telas</a>&nbsp;|&nbsp;
 </h3>
@@ -44,5 +43,5 @@ Proffy é uma aplicação que permite conectar alunos e professores de uma forma
 ## :iphone: Telas 
 <h2 align="center"> 📷 Screenshot da home page do projeto: </h2>
 <p align="center">
-<img width="275" src="https://github.com/trainningjava/Proffy/raw/master/web/public/assets/img/Mobile.png">
+<img width="275" src="https://github.com/trainningjava/Proffy/blob/master/public/assets/img/Mobile.png">
 </p>
