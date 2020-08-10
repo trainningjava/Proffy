@@ -27,9 +27,9 @@ Proffy é uma aplicação que permite conectar alunos e professores de uma forma
 
 ## :package: Módulos
 Este projeto foi divido em 3 módulos:
-- [Server](./tree/master/server)
-- [Web](./tree/master/web)
-- [Mobile](./tree/master/mobile)
+- [Server](https://github.com/trainningjava/Proffy/tree/master/server)
+- [Web](https://github.com/trainningjava/Proffy/tree/master/web)
+- [Mobile](https://github.com/trainningjava/Proffy/tree/master/mobile)
 
 ## :rocket: Tecnologias Utilizadas 
 
