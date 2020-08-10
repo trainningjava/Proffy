@@ -22,7 +22,7 @@ _________
 A NLW é uma experiência online criada pela <a href="https://rocketseat.com.br/">Rocketseat</a> de uma semana com muito conteúdo prático, desafios, hacks e um projeto que nos ajudam a avançar para o próximo nível e impulsionar a nossa carreira. 🤩🤩
   
 ## :heavy_check_mark: Sobre o projeto
-<img src="./public/assets/Logo.jpg">
+<img src="./public/assets/img/Logo.jpg">
 Proffy é uma aplicação que permite conectar alunos e professores de uma forma remota e segura, onde os alunos poderam marcar aulas e aprender da melhor forma.
 
 ## :package: Módulos
@@ -62,5 +62,5 @@ Mobile
 <h2 align="center"> 📷 Screenshot da home page do projeto: </h2>
 <p align="center">
 <img width="600" src="./public/assets/img/Web.jpg">
-<img width="600" src="./public/assets/img/Mobile.jpg">
+<img width="600" src="./public/assets/img/Mobile.png">
 </p>
