@@ -26,7 +26,13 @@ Proffy é uma aplicação que permite conectar alunos e professores de uma forma
 
 ## :seedling: Uso
 
-- Instale as dependencias `npm install`
+1. Instale as dependencias `npm install`
+
+2. Instale a ferramenta expo com o comando `npm install -g expo-cli`
+
+3. Executar o projeto `expo start` e abrirá o browser. Pegue o IP e Porta.
+
+.<img width="275" src="https://github.com/trainningjava/Proffy/blob/master/public/assets/img/Mobile.png">
 
 ## :rocket: Tecnologias Utilizadas 
 
