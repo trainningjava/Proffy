@@ -27,9 +27,9 @@ Proffy é uma aplicação que permite conectar alunos e professores de uma forma
 
 ## :package: Módulos
 Este projeto foi divido em 3 módulos:
-- [Server](./blob/master/server/readme.md)
-- [Web](./blob/master/web/readme.md)
-- [Mobile](./blob/master/mobile/readme.md)
+- [Server](./tree/master/server)
+- [Web](./tree/master/web)
+- [Mobile](./tree/master/mobile)
 
 ## :rocket: Tecnologias Utilizadas 
 
