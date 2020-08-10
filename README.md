@@ -15,7 +15,6 @@
   <a href="#iphone-telas">Telas</a>&nbsp;|&nbsp;
 </h3>
 
-## :information_source: O que é?
 _________
 
 ## :information_source: O que é?
