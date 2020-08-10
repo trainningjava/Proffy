@@ -58,7 +58,7 @@ Mobile
 * ts-node-dev
 ```
  
-## :iphone-telas: Telas 
+## :iphone: Telas 
 <h2 align="center"> 📷 Screenshot da home page do projeto: </h2>
 <p align="center">
 <img width="600" src="./public/assets/img/Web.jpg">
