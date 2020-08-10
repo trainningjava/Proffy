@@ -29,7 +29,11 @@ Proffy é uma aplicação que permite conectar alunos e professores de uma forma
 
 - Instale as dependencias `npm install`
 
-- Executar o projeto `npm start`. Irá abrir automaticamente o Browser na porta `3000`
+- Executar o projeto `npm start`. Irá abrir automaticamente o Browser na porta `3333`
+
+```obs
+Se quiser altear a porta 3333. Você precisa abrir o arquivo api.ts que está no diretório src\servies e alterar a linha baseURL: "http://localhost:3333"
+```
 
 ## :rocket: Tecnologias Utilizadas 
 
