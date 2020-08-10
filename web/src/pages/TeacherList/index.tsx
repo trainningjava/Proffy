@@ -1,4 +1,4 @@
-import React, { useState, FormEvent } from "react";
+import React, { useState, FormEvent, useEffect } from "react";
 
 import PageHeader from "../../components/PageHeader";
 import TeacherItem, { Teacher } from "../../components/TeacherItem";
@@ -7,25 +7,45 @@ import Select from "../../components/Select";
 
 import api from "../../servies/api";
 
-import * as param from "../../param";
-
 import "./styles.css";
+
+interface CourseProps {
+  id: number;
+  course_name: string;
+}
+
+interface WeekDayProps {
+  id: number;
+  week_day: string;
+}
 
 function TeacherList() {
   const [teachers, setTeachers] = useState([]);
+  const [rstTeachers, setRstTeachers] = useState([]);
+  const [rstWeekDay, setRstWeekDay] = useState([]);
 
   const [subject, setSubject] = useState("");
   const [week_day, setWeekDay] = useState("");
   const [time, setTime] = useState("");
 
+  useEffect(() => {
+    api.get("courses").then((response) => {
+      const res = response.data.map((data1: CourseProps) => {
+        return { value: data1.course_name, label: data1.course_name };
+      });
+      setRstTeachers(res);
+    });
+
+    api.get("weekdays").then((response) => {
+      const res = response.data.map((data1: WeekDayProps) => {
+        return { value: data1.id, label: data1.week_day };
+      });
+      setRstWeekDay(res);
+    });
+  }, []);
+
   async function searchTeachers(e: FormEvent) {
     e.preventDefault();
-
-    console.log({
-      subject,
-      week_day,
-      time,
-    });
 
     try {
       const response = await api.get("classes", {
@@ -52,7 +72,7 @@ function TeacherList() {
             onChange={(e) => {
               setSubject(e.target.value);
             }}
-            options={param.materias}
+            options={rstTeachers}
           />
 
           <Select
@@ -62,7 +82,7 @@ function TeacherList() {
             onChange={(e) => {
               setWeekDay(e.target.value);
             }}
-            options={param.diasSemana}
+            options={rstWeekDay}
           />
 
           <Input

@@ -1,4 +1,4 @@
-import React, { useState, FormEvent } from "react";
+import React, { useState, FormEvent, useEffect } from "react";
 import { useHistory } from "react-router-dom";
 import PageHeader from "../../components/PageHeader";
 import Input from "../../components/Input";
@@ -8,6 +8,16 @@ import warningIcon from "../../assets/images/icons/warning.svg";
 import "./styles.css";
 import api from "../../servies/api";
 import * as param from "../../param";
+
+interface CourseProps {
+  id: number;
+  course_name: string;
+}
+
+interface WeekDayProps {
+  id: number;
+  week_day: string;
+}
 
 function TeacherForm() {
   const history = useHistory();
@@ -20,9 +30,28 @@ function TeacherForm() {
   const [subject, setSubject] = useState("");
   const [cost, setCost] = useState("");
 
+  const [rstCourse, setRstCourse] = useState([]);
+  const [rstWeekDay, setRstWeekDay] = useState([]);
+
   const [scheduleItems, setScheduleItems] = useState([
     { week_day: 0, from: "", to: "" },
   ]);
+
+  useEffect(() => {
+    api.get("courses").then((response) => {
+      const res = response.data.map((data1: CourseProps) => {
+        return { value: data1.course_name, label: data1.course_name };
+      });
+      setRstCourse(res);
+    });
+
+    api.get("weekdays").then((response) => {
+      const res = response.data.map((data1: WeekDayProps) => {
+        return { value: data1.id, label: data1.week_day };
+      });
+      setRstWeekDay(res);
+    });
+  }, []);
 
   function addNewScheduleItem() {
     setScheduleItems([...scheduleItems, { week_day: 0, from: "", to: "" }]);
@@ -121,7 +150,7 @@ function TeacherForm() {
               onChange={(e) => {
                 setSubject(e.target.value);
               }}
-              options={param.materias}
+              options={rstCourse}
             />
             <Input
               name="cost"
@@ -151,7 +180,7 @@ function TeacherForm() {
                     onChange={(e) =>
                       setScheduleItemValue(index, "week_day", e.target.value)
                     }
-                    options={param.diasSemana}
+                    options={rstWeekDay}
                   />
                   <Input
                     name="from"
