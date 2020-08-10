@@ -7,7 +7,6 @@ import Select from "../../components/Select";
 import warningIcon from "../../assets/images/icons/warning.svg";
 import "./styles.css";
 import api from "../../servies/api";
-import * as param from "../../param";
 
 interface CourseProps {
   id: number;
