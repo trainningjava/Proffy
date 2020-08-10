@@ -10,6 +10,7 @@
 <h3 align="center">
   <a href="#information_source-sobre-o-que-se-trata">Sobre o que se trata ?</a>&nbsp;|&nbsp;
   <a href="#heavy_check_mark-sobre-o-projeto">Sobre o projeto</a>&nbsp;|&nbsp;
+  <a href="#seedling-Uso">Uso</a>&nbsp;|&nbsp;    
   <a href="#rocket-tecnologias-utilizadas">Tecnologias</a>&nbsp;|&nbsp;
 </h3>
 
@@ -22,6 +23,14 @@ A NLW é uma experiência online criada pela <a href="https://rocketseat.com.br/
 ## :heavy_check_mark: Sobre o projeto
 <img src="https://github.com/trainningjava/Proffy/raw/master/public/assets/img/Logo.jpg">
 Proffy é uma aplicação que permite conectar alunos e professores de uma forma remota e segura, onde os alunos poderam marcar aulas e aprender da melhor forma.
+
+## :seedling: Uso 
+
+- Instale as dependencias `npm install`
+
+- Crie o banco de dados `yarn knex:migrate`. Só é necessário executar na primeira vez
+
+- Execute o projeto `npm start` e estará usando a porta `3333`
 
 ## :rocket: Tecnologias Utilizadas 
 
