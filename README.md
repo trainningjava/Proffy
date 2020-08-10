@@ -4,7 +4,7 @@
 </h1>
   
 <p align="center">
-  <img width="250" src="./public/assets/img/nlw.jfif">
+  <img width="250" src="./public/assets/img/NLW2.jpg">
 </p>
 
 <h3 align="center">
@@ -15,7 +15,6 @@
   <a href="#iphone-telas">Telas</a>&nbsp;|&nbsp;
 </h3>
 
-## :information_source: O que é?
 _________
 
 ## :information_source: O que é?
@@ -37,6 +36,7 @@ Mobile
 
 ## Front-end:
 
+```frond-end
 * Typescript
 * ReactJS
 * React Native
@@ -44,9 +44,11 @@ Mobile
 * Yarn 
 * AsyncStorage
 * axios
+```
 
 ## Back-end:
 
+```back-end
 * Node.js
 * Express
 * Knex
@@ -54,6 +56,7 @@ Mobile
 * axios
 * cors
 * ts-node-dev
+```
  
 ## :iphone-telas: Telas 
 <h2 align="center"> 📷 Screenshot da home page do projeto: </h2>
