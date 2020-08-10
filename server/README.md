@@ -32,7 +32,9 @@ Proffy é uma aplicação que permite conectar alunos e professores de uma forma
 
 - Execute o projeto `npm start` e estará usando a porta `3333`
 
-* Se quiser alterar a porta 3333. Você terá que abrir o arquivo `src/server.ts` e alterar a linha `app.listen(3333)`
+```obs
+Se quiser alterar a porta 3333. Você terá que abrir o arquivo `src/server.ts` e alterar a linha `app.listen(3333)`
+```
 
 ## :rocket: Tecnologias Utilizadas 
 
