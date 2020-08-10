@@ -27,6 +27,10 @@ Proffy é uma aplicação que permite conectar alunos e professores de uma forma
 
 ## :seedling: Uso 
 
+- Instale as dependencias `npm install`
+
+- Executar o projeto `npm start`. Irá abrir automaticamente o Browser na porta `3000`
+
 ## :rocket: Tecnologias Utilizadas 
 
 ## Front-end:
