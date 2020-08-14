@@ -16,7 +16,6 @@
 
 _________
 
-## :information_source: O que é?
 ### 🤔 Sobre o que se trata ? 
 A NLW é uma experiência online criada pela <a href="https://rocketseat.com.br/">Rocketseat</a> de uma semana com muito conteúdo prático, desafios, hacks e um projeto que nos ajudam a avançar para o próximo nível e impulsionar a nossa carreira. 🤩🤩
   
