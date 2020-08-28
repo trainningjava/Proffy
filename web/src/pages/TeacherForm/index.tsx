@@ -6,7 +6,7 @@ import Textarea from "../../components/Textarea";
 import Select from "../../components/Select";
 import warningIcon from "../../assets/images/icons/warning.svg";
 import "./styles.css";
-import api from "../../servies/api";
+import api from "../../services/api";
 import * as param from "../../param";
 
 function TeacherForm() {
